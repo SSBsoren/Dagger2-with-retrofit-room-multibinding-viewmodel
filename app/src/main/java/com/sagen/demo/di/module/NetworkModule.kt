@@ -15,7 +15,7 @@ import javax.inject.Singleton
 class NetworkModule {
 
     companion object {
-        const val BASE_URL = "http://13.234.139.219/sakshamapi/"
+        const val BASE_URL = "http://localhost:8080/collection-api/"
     }
 
     @Singleton
